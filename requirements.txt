@@ -1,4 +1,4 @@
 # requirements.txt
-pip
+pip3
 cffi
 snowflake-connector-python

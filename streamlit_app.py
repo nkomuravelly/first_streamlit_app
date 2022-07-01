@@ -25,7 +25,7 @@ streamlit.dataframe(fruits_to_show)
 streamlit.header("Fruityvice Fruit Advice!")
 
 #function
-def get_fruityvise_date(this_fruit_choice):
+def get_fruityvise_data(this_fruit_choice):
     fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
     #streamlit.text(fruityvice_response.json())
     # write your own comment -what does the next line do? 
